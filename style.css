@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* navbar*/
+.navbar {
+    background: #111;
+    color: #fff;
+    display: flex;
+    padding: 15px 40px;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-right: 40px;
+}
+ .navul{
+    color: #f2f2f2;
+    display: flex;
+    align-items: end;
+    list-style: none;
+    justify-content: center;
+ }
+ 
+.navli{
+    padding: 10px;
+}
+
+
+
+
+
+/* ===== SLIDER =====
+.slider {
+    overflow: hidden;
+    height: 400px;
+}
+
+.slides {
+    display: flex;
+    width: 300%;
+    animation: slide 12s infinite;
+}
+
+.slides img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    33% {
+        transform: translateX(-100%);
+    }
+
+    66% {
+        transform: translateX(-200%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+} */
+
+/* content part */
+.content {
+    display: flex;
+    padding: 40px;
+    gap: 30px;
+}
+
+.hotels{
+    display: flex;
+}
+.content img {
+    width: 100%;
+}
+
+.text {
+    max-width: 500px;
+}
+
+/* services part*/
+.services {
+    background: #f2f2f2;
+    padding: 40px;
+    text-align: center;
+}
+
+.service-box {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    width: 250px;
+}
+
+/* footer */
+
+.footer {
+    background: #111;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    gap: 30px;
+}
+
+.footer-box {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background: #0d6efd;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.social i {
+    font-size: 22px;
+    margin-right: 10px;
+}
